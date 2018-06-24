@@ -1,0 +1,385 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300 !important;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.header {
+  position: relative;
+  background-position: center;
+  opacity: 1;
+  background-size: cover;
+  background-image: url("/img/Chicago.jpeg");
+  background-color: rgba(0, 0, 0, .4);
+  background-blend-mode: multiply;
+  min-height: 100%;
+}
+
+.pImage {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("/img/Skyline.jpeg");
+  min-height: 80%;
+}
+
+.pImage2 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("/img/money.jpg");
+  min-height: 45%;
+}
+
+.pText {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.intro-text {
+  padding-top: 13%;
+  text-align: center;
+  color: white;
+  font-size: 27px;
+  font-weight: 400 !important;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.subtext {
+  font-size: 8px;
+  letter-spacing: 2px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: transparent !important;
+  padding-top:15px !important;
+}
+
+.navbar-brand {
+  font-size: 1.2rem !important;
+  color: white !important;
+  margin-left: 20px;
+}
+
+.cName{
+  color: transparent !important;
+  transition: .4s;
+}
+
+.cName:hover{
+  color: white !important;
+  transition: .4s;
+}
+
+.navbar-collapse,
+.nav-link {
+  color: white !important;
+  transition: 0.4s;
+}
+
+.nav-link:hover {
+  transition: 0.4s;
+  color: rgb(50, 100, 200) !important;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.logoIcon {
+  width: 25px;
+  height: 25px;
+}
+
+.btnLearn {
+  color: white !important;
+  border-color: white !important;
+  transition: 0.9s;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+
+.btnLearn:hover {
+  color: black !important;
+  border-color: black !important;
+  background: transparent !important;
+  transition: 0.6s;
+}
+
+.btns {
+  padding-top: 40px;
+}
+
+.qb {
+  width: 6rem;
+  height: 4rem;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  opacity: 0.6;
+  transition: .4s;
+}
+
+.irs {
+  width: 6rem;
+  height: 4rem;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  opacity: 0.6;
+  transition: .4s;
+}
+
+.certifications {
+  padding-top: 180px;
+  padding-bottom: 20px;
+}
+
+.certifications > img {
+  padding-left: 25px;
+}
+
+
+.certifications > img:hover{
+   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  opacity: 1;
+  transition: .4s;
+}
+
+/* About */
+.about {
+  text-align: center;
+  background-image: url("/img/light_noise_diagonal.png");
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+.section-content {
+  padding-bottom: 20px;
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+
+.section-subtext {
+  font-weight: 100;
+  font-size: 0.7rem;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.about-hr{
+  background-color:rgb(81, 111, 140);
+  height: 1px;
+  width: 34%;
+}
+
+/* Services */
+.services {
+  text-align: center;
+}
+
+.blue-word {
+  color: #4484ce;
+}
+
+.subtext-hr {
+  background-color: #4484ce;
+  height: 1px;
+  width: 60%;
+}
+
+.service-icons {
+  padding-bottom: 50px;
+}
+
+.service-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 1.2rem;
+  transition: 0.4s;
+}
+
+.service-title:hover {
+  transition: 0.4s;
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+
+.service-text {
+  font-size: 0.95rem;
+}
+
+.fa-calculator {
+  color: #4484ce;
+}
+
+.fa-money-bill-alt {
+  color: #85bb65;
+}
+
+.fa-life-ring {
+  color: #f19f4d;
+}
+
+.fa-users {
+  color: #984b43;
+}
+
+.fa-check-circle {
+  color: #30415d;
+}
+
+.fa-file-alt {
+  color: #d9d9d9;
+}
+
+.icon-hr {
+  border-top: 6px dotted #8c8b8b;
+  width: 50%;
+  transition: 0.6s;
+}
+
+/* Testimonials */
+#testimonials {
+  padding: 30px;
+  background-color: rgb(81, 111, 140) !important;
+  color: white;
+}
+
+.fa-quote-right {
+  color: rgb(211, 146, 69) !important;
+}
+
+.testimonial-cards {
+  padding: 40px;
+}
+
+.testimonial-hr {
+  background-color: rgb(211, 146, 69);
+  height: 1px;
+  width: 60%;
+}
+
+/* Contact */
+#contact {
+  color: black;
+  opacity: 0.9;
+}
+
+.classLeft {
+  background-color: #0375b4;
+}
+
+.classRight{
+  background-color:#dfdce3 !important;
+}
+
+
+.contact-info {
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 15px;
+  font-size: 15px;
+  font-weight: 100;
+  padding-top: 18px;
+}
+
+.contact-title {
+  padding-bottom: 35px;
+}
+
+.contact-hr {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+
+.googlemap{
+  padding-left: 40px !important;
+}
+
+.submit-btn {
+  color:   #4484ce !important;
+  border-color: #4484ce !important;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  color: black !important;
+  border-color: black !important;
+  background: transparent !important;
+  transition: 0.3s;
+  cursor: pointer;
+}
+/* Footer */
+#footer {
+  color: rgba(136, 136, 136, 0.863);
+  background: rgb(43, 49, 55);
+  font-weight: 300;
+}
+
+#footer p {
+  margin-top: 1rem;
+  float: left;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+  margin-top: 0.5em;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+  padding-right: 25px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  font-size: 160%;
+}
+
+.fa-facebook-square:hover {
+  color: #4078c0;
+}
+
+.fa-envelope:hover {
+  color: #4078c0;
+}
+
+.fa-twitter:hover {
+  color: #0077b5;
+}
